@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce Tradición - Con Sabor a México</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+<!-- Comienza el Menú de Navegación Sticky  -->
+<header>
+    <nav class="navBar">
+        <div class="menu-container">
+            <div class="logo">
+                <a href="index.html"><img src="/img/logoGrandeNegativoPequeno.png" alt="logo-sabor-a-mexico"></a>
+            </div>
+            <!-- Botón para abrir el sideBar -->
+            <div class="menu-iconBar" id="buttonBars">
+                <i class="fas fa-bars" id="openMenu"></i>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html" class="current">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#products">Productos</a></li>
+                    <li><a href="#aboutus">Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+            <!-- <div class="sideBar" id="sideBar"> -->
+                <!-- Botón para cerrar el sideBar -->
+                <!-- <div class="menu-xmark" id="buttonClose">
+                    <i class="fa fa-xmark" id="icon-close"></i>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="index.html" class="current">Inicio</a></li>
+                        <li><a href="#products">Servicios</a></li>
+                        <li><a href="#services">Productos</a></li>
+                        <li><a href="#aboutus">Nosotros</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div> -->
+            <form action="#">
+                <input type="search" class="search-data" placeholder="Buscar producto...">
+                <button type="submit" class="fa fa-search"></button>
+            </form>
+        </div>
+    </nav>
+</header>
+<!-- Termina el Menú de Navegación  -->
+
+<!-- Empieza la Animación del Fondo de Pantalla (Slider) -->
+    <main class="banner">
+        <div class="slider">
+            <img class="bkImg" id="slideImg" src="/img/fondo2.png" alt="canastilla con dulces tradicionales">
+        </div>
+        <div class="overlay">
+            <div class="container">
+                <h1>
+                    Un pequeño trozo de México en cada bocado
+                </h1>
+                <p>Nuestros dulces artesanales están elaborados
+                a mano y con la dedicación que merece cada uno.
+                </p>
+            </div>
+        </div>
+    </main>
+<!-- Termina la Animación del Fondo de Pantalla (Slider) -->
+
+<!-- Empieza Apartado "Nuestros Servicios" -->
+    <section class="services" id="services">
+        <h2 class="ourServices">
+            Nuestros Servicios
+        </h2>
+        <div class="box-container">
+            <div class="box">
+                <i class="fa fa-hand-holding-heart"></i>
+                <h2>Elaborados con cariño y dedicación</h2>
+                <p>Estamos orgullosos de colaborar con un gran grupo de artesanos que hacen posible
+                    toda la elaboración de los dulces típicos mexicanos.</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-truck-ramp-box"></i>
+                <h2>Entregas rápidas a toda la República</h2>
+                <p>Deseamos que todo México siga conservando su gusto por las tradiciones, 
+                    por eso queremos ofrecer nuestros productos con la mejor calidad.</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-credit-card"></i>
+                <h2>Facilidad en todos los tipos de pagos</h2>
+                <p>Lo más importante son nuestros clientes, es por ello que procuramos que todo sea
+                    seguro al momento de poner su confianza en nosotros. </p>
+            </div>
+        </div>
+    </section>
+<!-- Termina Apartado "Nuestros Servicios" -->
+
+<!-- Comienza Apartado "Nuestros Productos" -->
+<section class="products" id="products">
+    <h2 class="ourServices">
+        Productos Artesanales
+    </h2>
+    <div class="shop" id="shop">
+        <!-- Las Product Cards están creadas desde JavaScript -->
+    </div>
+</section>
+<!-- Termina Apartado "Nuestros Productos" -->
+</body>
+<script src="/js/index.js"></script>
+
+</html>
